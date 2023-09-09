@@ -2,90 +2,102 @@ body {
     margin: 0%;
 }
 
-.grupos {
+#grupos {
     display: flex;
 }
+
+#usermain {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#usermain img {
+    width: 80px;
+    border-radius: 40px;
+}
+
 
 .contactos {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    width: 20%;}
-
-nav {
-    background-color: red;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;}
+    width: 15%;
+}
 
 .user {
     display: flex;
+
     padding: 5px;
     gap: 20px;
 }
 
 .iconos {
     display: flex;
-    justify-content: space-between;
-    margin-right: 10px;
 }
 
-nav img {
-    width: 20%;
-    border-radius: 50px;}
-
 .contactos .user ul {
-    padding: 0px;}
+    padding: 0px;
+}
 
-    .boton {
-        padding: 3rem;
-        text-align: center;
+.boton {
+    padding: 3rem;
+    text-align: center;
+    border-top: solid gray 3px;
     }
 
-    button {
-        height: 50px;
-        width: 150px;
-        background-color: #A491D2;
-        color: white;
-        border-radius: 3px;
-    }
+button {
+    height: 70px;
+    width: 250px;
+    background-color: #A491D2;
+    color: white;
+    border-radius: 3px;
+    margin: 0px;
+    padding: 0px;
+}
 
 .chatcontactos {
     display: flex;
     flex-direction: column;
 }
 
-.userchat {
-    display: flex;
-    justify-content: center;
-    width: 20vh;
-}
 
 .amigos {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100px;
+    border-top: solid gray 3px;
 }
 
 .amigos img {
-    border-radius: 40px;
+    border-radius: 50px;
     width: 70px;
 }
 
-.principal {
+.amigos ul {
+    padding-left: 20px;
+}
+
+.secundaria {
     background-color: aqua;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    min-height: 100vh;}
+    width: 85%;
+    min-height: 100vh;
+}
 
 .textoprincipal {
-    text-align: center;}
+    text-align: center;
+}
+
+.textoprincipal img {
+    background-color: black;
+    width: 100px;
+}
 
 .textoprincipal h1 {
-    font-size: 40px;}
-
-img {
-    width: 250px;}
+    font-size: 40px;
+}
