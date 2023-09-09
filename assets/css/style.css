@@ -1,0 +1,54 @@
+body {
+    margin: 0%;
+}
+
+.grupos {
+    display: flex;
+}
+
+.contactos {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 20%;
+
+}
+
+nav {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user {
+    display: flex;
+}
+
+nav img {
+    width: 20%;
+    border-radius: 50px;
+}
+
+.principal {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    min-height: 100vh;
+}
+
+.textoprincipal {
+    text-align: center;
+}
+
+.textoprincipal h1 {
+    font-size: 40px;
+}
+
+img {
+    width: 250px;
+}
+
