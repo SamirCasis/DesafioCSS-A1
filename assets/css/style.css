@@ -1,5 +1,7 @@
 body {
     margin: 0%;
+    border: solid gray 3px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #grupos {
@@ -7,34 +9,57 @@ body {
 }
 
 #usermain {
-    background-color: red;
     display: flex;
+    justify-content: center;
     align-items: center;
     justify-content: space-between;
+    padding: 10px 0px 10px 0px;
+}
+
+#usermain .user1 {
+    display: flex;
+    align-items: center;
 }
 
 #usermain img {
-    width: 80px;
-    border-radius: 40px;
+    width: 40px;
+    border-radius: 50px;
+    border: solid rgb(213, 201, 201) 3px;
+    margin-left: 20px;
 }
 
+#usermain ul {
+    padding: 0px;
+    margin-left: 15px;
+    margin-top: 7px;
+}
+
+#usermain h2 {
+    margin: 0px;
+    color: black;
+    font-size: 16px;
+}
+
+#usermain li {
+    color: gray;
+    font-size: 12px;
+}
+
+#usermain .iconos {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    width: 20%;
+    text-align: center;
+    color: rgb(199, 197, 197);
+}
 
 .contactos {
     display: flex;
     flex-direction: column;
-    width: 15%;
+    width: 20%;
 }
 
-.user {
-    display: flex;
-
-    padding: 5px;
-    gap: 20px;
-}
-
-.iconos {
-    display: flex;
-}
 
 .contactos .user ul {
     padding: 0px;
@@ -42,18 +67,19 @@ body {
 
 .boton {
     padding: 3rem;
-    text-align: center;
     border-top: solid gray 3px;
-    }
+}
 
 button {
-    height: 70px;
-    width: 250px;
+    height: 60px;
+    width: 230px;
     background-color: #A491D2;
     color: white;
     border-radius: 3px;
+    border: white;
     margin: 0px;
     padding: 0px;
+    font-size: 16px;
 }
 
 .chatcontactos {
@@ -65,39 +91,58 @@ button {
 .amigos {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     height: 100px;
-    border-top: solid gray 3px;
+    border-top: solid rgb(205, 205, 205) 3px;
 }
 
 .amigos img {
     border-radius: 50px;
-    width: 70px;
+    border: solid gray 2px;
+    margin-left: 20px;
+    width: 60px;
 }
 
 .amigos ul {
     padding-left: 20px;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.amigos h2 {
+    margin: 0px;
+    font-size: 16px;
+}
+
+.amigos li {
+    font-size: 12px;
 }
 
 .secundaria {
-    background-color: aqua;
+    background-color: #f4f4f4;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 85%;
+    width: 80%;
     min-height: 100vh;
+    border-left: solid rgb(205, 205, 205) 2px;
+}
+
+.secundaria img {
+    width: 300px;
 }
 
 .textoprincipal {
     text-align: center;
 }
 
-.textoprincipal img {
-    background-color: black;
-    width: 100px;
+.textoprincipal h1 {
+    font-size: 45px;
+    margin: 20px 0px 10px 0px;
 }
 
-.textoprincipal h1 {
-    font-size: 40px;
+.textoprincipal p {
+    margin: 0px;
+    font-size: 16px;
 }
